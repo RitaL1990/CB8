@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Lexend', sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+
+.button {
+    display: inline-block;
+    padding: 20px 40px;
+    text-decoration: none;
+    border: 1px solid #dff5f5;
+    border-radius: 10px;
+    color:aliceblue;
+    background-color: darkblue;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.button2 {
+    margin-left: 20px;
+    display: inline-block;
+    padding: 20px 40px;
+    text-decoration: none;
+    border: 1px solid #dff5f5;
+    border-radius: 10px;
+    color: darkblue;
+    background-color: lightskyblue;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.button3 {
+    display: inline-block;
+    padding: 20px 40px;
+    text-decoration: none;
+    margin-top: 20px;
+    border: 1px solid #dff5f5;
+    border-radius: 10px;
+    color:aliceblue;
+    background-color: darkblue;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.button:hover {
+    background-color: aliceblue;
+    color: darkblue;
+}
+
+.button2:hover {
+    background-color: darkblue;
+    color:aliceblue;
+}
+
+.button3:hover {
+    background-color: aliceblue;
+    color:darkblue;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 40px
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 28px
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 26px;
+}
+
+.display{
+    font-size: 56px;
+}
+
+.main-header{
+    position: fixed;
+    width: 100%;
+    background-color: lightskyblue;
+    z-index: 10;
+}
+
+.header-wrapper{
+    max-width: 2440px;
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: bottom;
+}
+
+.header-logo{
+    margin-top: 10px;
+}
+
+.main-header ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    margin: 40px 50px 0px 0px;
+}
+
+
+.main-nav a {
+    color:rgb(4, 42, 71);
+    text-decoration: none;
+    transition: color 1s ease;
+}
+
+.main-nav a:hover {
+    color:rgb(111, 135, 162);
+    text-decoration: none;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: darkblue;
+}
+
+.hero-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    padding-top: 60px;
+}
+
+.hero-text {
+    color:aqua;
+    width: 100%;
+}
+
+.hero-text span {
+    color:lightgreen;
+}
+
+.hero text .dispaly{
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-description {
+    margin-bottom: 20px;
+}
+
+.hero-image img {
+    width: 60;
+    height: auto;
+    animation: anim-duck 1s ease-in-out infinite alternate;
+
+}
+
+.section-intro {
+    width: 100%;
+    height: 60vh;
+    background-color:darkseagreen;
+}
+
+.section-intro-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 50%;
+    padding-top: 60px;
+}
+
+.intro-text {
+    color:darkgreen;
+    margin: 0px 30% 200px 30%
+}
+
+.intro-description {
+    color:darkgreen;
+}
+
+@keyframes anim-duck {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(40px);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-wrapper {
+        padding-top: 0;
+    }
+    .hero-text,
+    .hero-image {
+        width: 50%;
+    }
+}
+
+.services {
+    width: 100%;
+}
+
+.services-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-wrapper:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.services-text {
+    width: 100%;
+    margin-left: 300px;
+}
+
+.services-image {
+    width: 100%;
+}
+
+.service-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media only srceen and (min-width: 768px) {
+    .services-text,
+    .services-image {
+        width: 50%;
+    }
+}
