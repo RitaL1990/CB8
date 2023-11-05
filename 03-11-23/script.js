@@ -31,30 +31,29 @@ function getTemperatureStatus(currentTemperature) {
  console.log("Sono una ragazza", characteristics.personality(),
   "anziché il caldo piuttosto che il freddo.")
 
-
-
- //Esercizio avanzato
-const Favorites = [];
+//Esercizio avanzato
+const favorites = [];
 
 function addToFavorites(value) {
-   Favorites.push(value);
-   return Favorites;
+   favorites.push(value);
 }
-
-console.log(addToFavorites("Gatsby"));
-
-
-function showFavorites(value) {
-    Favorites.push(value);
-    return Favorites;
-}
-
-console.log(showFavorites("Gatsby", "Inception", "shutterIsland"));
-
 
 function removeFromFavorites(value) {
-    Favorites.unshift(value);
-    return Favorites;
+    const index = favorites.indexOf(value);
+    if (index > -1) {
+        favorites.splice(index, 1);
+    }
+}
+function showFavorites() {
+    console.log(favorites)
 }
 
-console.log(removeFromFavorites("Gatsby"));
+showFavorites()
+addToFavorites("Gatsby");
+addToFavorites("Iception"); 
+addToFavorites("shutterIsland");
+showFavorites()
+removeFromFavorites("Gatsby")
+showFavorites()
+removeFromFavorites("shutterIsland")
+showFavorites()
