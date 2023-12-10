@@ -1,0 +1,266 @@
+.linksNav {
+    width: 100%;
+    justify-content: center;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: rgba(45, 133, 128, 0.244); 
+    gap: 60px;   
+}
+
+@media only screen and (max-width:
+700px) { 
+    .linksNav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.buttons { 
+    font-family: cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width:
+700px) { 
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin-left: 0px;
+      margin-right: 0px;
+    }    
+}
+
+.button1 {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.button2 {
+    margin-left: 50px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.button3 {
+    margin-left: 50px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.button4 {
+    margin-left: 50px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.button5 {
+    margin-left: 50px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.wrap {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.temperature {
+    position: absolute;
+    border-radius: 15px;
+    font-family: cursive;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.200);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (max-width:
+700px) { 
+    .temperature {
+    font-size: 20px;
+    }
+}
+
+.cities {
+    position: absolute;
+    border-radius: 15px;
+    font-family: cursive;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.200);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (max-width:
+700px) { 
+    .cities {
+    font-size: 20px;
+    }
+}
+
+.temperatureMax {
+    position: absolute;
+    border-radius: 15px;
+    font-family: cursive;
+    bottom: 20%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.200);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (max-width:
+700px) { 
+    .temperatureMax {
+    font-size: 15px;
+    }
+}
+
+.temperatureMin {
+    position: absolute;
+    border-radius: 15px;
+    font-family: cursive;
+    bottom: 20%;
+    right: 24%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.200);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (max-width:
+700px) { 
+    .temperatureMin {
+    font-size: 15px;
+    }
+}
+
+.tempMax {
+    position: absolute;
+    border-radius: 15px;
+    font-family: cursive;
+    bottom: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.200);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (max-width:
+700px) { 
+    .tempMax {
+    font-size: 15px;
+    }
+}
+
+.tempMin {
+    position: absolute;
+    border-radius: 15px;
+    font-family: cursive;
+    bottom: 20%;
+    right: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.200);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (max-width:
+700px) { 
+    .tempMin {
+    font-size: 15px;
+    }
+}
+
+.container2 {
+    background-color: rgba(28, 82, 129, 0.133);
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+.boxCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #76c5e9b1, #5cb2be44);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.boxCard:hover {
+    transform: scale(1.1);
+}
+
+.cityCard {
+    font-family: cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    font-weight: inherit;
+}
+
+.tempCard {
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.foot {
+    padding: 5px;
+    margin-top: 0px;
+    background-color: rgba(45, 133, 128, 0.244);
+    border-radius: 10px;
+}
+
+.textFoot {
+    display: flex;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    font-family: cursive
+}
