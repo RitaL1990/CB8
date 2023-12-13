@@ -1,0 +1,7 @@
+.Footer__text {
+    display: flex;
+    justify-content: center;
+    background-color: violet;
+    color: black;
+    border-radius: 5px;
+}

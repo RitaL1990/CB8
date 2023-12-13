@@ -1,0 +1,11 @@
+.Navbar {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Nav__btn {
+    display: flex;
+    gap: 20px;
+}
