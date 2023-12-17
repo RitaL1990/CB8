@@ -1,0 +1,17 @@
+.Gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Gallery h2 {
+    padding: 0 24px;
+  }
+  
+  .Gallery__items {
+    padding: 12px 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 500px;
+    overflow-x: scroll;
+  }
