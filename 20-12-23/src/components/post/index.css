@@ -1,0 +1,49 @@
+.Post {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 24px;
+}
+
+
+.Post__title {
+  margin: 20px;
+  border: solid gray;
+  border-radius: 8px;
+  width: 50%;
+  padding-left: 90px;
+}
+
+.picAuth {
+  width: 60%;
+  border: solid gray;
+  border-radius: 100px;
+}
+
+.Author {
+  margin: 20px;
+  border: solid gray;
+  border-radius: 8px;
+  width: 50%;
+  padding-left: 90px
+}
+
+.Post__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Post__info--categories {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.Post hr {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid gray;
+}
+
