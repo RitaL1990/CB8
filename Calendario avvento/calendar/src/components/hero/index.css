@@ -1,0 +1,41 @@
+.heroData {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 1;
+    color: rgba(246, 255, 0, 0.858);
+    margin-left: 30px;
+}
+
+.heroImg {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    object-fit: cover;
+    margin-bottom: 100px;
+}
+
+.heroCards {
+    border-radius: 20px;
+    position: relative;
+    background-image: url(./heroImage/holidays-1804768_1920.jpg);
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.heroCard {
+    border: 1px solid #ddddddb3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    height: 250px;
+    width: 250px;
+    margin: 150px 50px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.heroCard :hover {
+   transform: scale(1.1);
+   transition: 0.3s;
+}

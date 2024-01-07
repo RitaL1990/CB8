@@ -1,0 +1,26 @@
+.Nav {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 3px;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.614);
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(246, 255, 0, 0.851);
+}
+
+.Nav_box {
+    display: flex;
+    align-items: center;
+}
+
+.Nav_list {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 20px;
+}
