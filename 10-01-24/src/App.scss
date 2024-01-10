@@ -1,0 +1,13 @@
+@import './assets/css/variables.scss';
+@import './assets/css/mixins.scss';
+
+.App {
+  @include flex-container(column, 40px);
+  background-color: $bg-color;
+  color: $first-color;
+
+  .Text {
+    display: flex;
+    justify-content: center;
+  }
+}
