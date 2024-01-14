@@ -1,0 +1,35 @@
+
+@import '../../assets/css/variables.scss';
+@import '../../assets/css/mixins.scss';
+
+.TodoItem {
+  @include flex-container(column, 0px);
+  padding: 0 20px;
+
+  .TodoItem__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+    box-shadow: 0 0 4px rgba(3, 26, 116, 0.821);
+    border-radius: 12px;
+    border-color: $br-color;
+  }
+ 
+  .TodoItem__button {
+    border: $br-thick;
+    border-color: $br-color;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    font-size: 0.7rem;
+    cursor: pointer;
+    transition: transform 0.35s;
+
+    &:hover {
+      transform: scale(2) rotate(360deg);
+    }
+  }
+  
+}
+

@@ -1,0 +1,26 @@
+@import '../../assets/css/variables.scss';
+@import '../../assets/css/mixins.scss';
+
+
+.AddTodoInput {
+  @include flex-container(inherit, 10px);
+  padding: 0 24px;
+  display: flex;
+
+  .AddTodoInput__input {
+    height: 40px;
+    width: 220px;
+    padding-left: 12px;
+    border-radius: 6px;
+    box-shadow: 0 0 4px rgba(113, 5, 255, 0.315);
+    border: $br-thick;
+    border-color: $br-color;
+  }
+  
+  .AddTodoInput__btn {
+    color: rgba(0, 0, 0, 0.564);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    background-color: rgba(68, 0, 255, 0.83);
+  } 
+}
+
