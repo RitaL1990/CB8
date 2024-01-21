@@ -1,0 +1,12 @@
+@import '../../css/mixins.scss';
+@import '../../css/variables.scss';
+
+.Homepage {
+  margin: 10px 20px;
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: $bg-color;
+  }
+}

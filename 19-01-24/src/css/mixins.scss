@@ -1,0 +1,6 @@
+@mixin flex-container ($dir: column,
+$gap: 0px) {
+    display: flex;
+    flex-direction: $dir;
+    gap: $gap;
+}

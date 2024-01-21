@@ -1,0 +1,14 @@
+@import '../../css/mixins.scss';
+@import '../../css/variables.scss';
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  background-color: $bg-color;
+
+  .bocCopy {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+};
