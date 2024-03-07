@@ -1,0 +1,32 @@
+[
+    {
+      "category": "man",
+      "articles": [
+        {
+          "id": "man1",
+          "article1": "jeans",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "category": "woman",
+      "articoles": [
+        {
+          "id": "woman1",
+          "article": "T-shirt",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "category": "child",
+      "articoles": [
+        {
+          "id": "child1",
+          "article": "jacket",
+          "price": 15
+        }
+      ]
+    }
+  ]
